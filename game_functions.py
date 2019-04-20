@@ -68,6 +68,7 @@ def update_screen(ai_settings, screen, ship, alien, bullets):
         bullet.draw_bullet()
 
     ship.blit_me()
+    alien.blit_me()
 
     # Make the latest drawn screen visible
     pygame.display.flip()
